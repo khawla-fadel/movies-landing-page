@@ -6,136 +6,184 @@
     padding: 0;
     margin: 0;
     background-color: #FFFFFF;
-}
-  
-  
-  
-  .navbar{
+  }
+
+  /*.navbar{
+    position: sticky;
     display:flex;
-    text-align: right;
-   justify-content: space-between;
-    margin-top: 94px;
-    background-repeat: no-repeat;
+    align-items:end;
+    justify-content: space-between;
+    padding: 94px 20px;
+    top: 94px;
+    left: 194px;
 }
 
- #navbar img{
-position: absolute;
-width: 65px;
-height: 65px;
-left: 180px;
-top: 73px;
-position: absolute;
-width: 65px;
-height: 65px;
-left: 165px;
-top: 73px;
-
- }
- #navbar p{
-font-family:"Just Another Hand", cursive;
-color:#000; 
-position: absolute;
-width: 102px;
-height: 64px;
-top: 74px;
-left: 255px;
-right: 1359px;
-gap: 0px;
-opacity: 0px;
-font-size: 40px;
-font-weight: 400;
-line-height: 64.36px;
-text-align: left;
-font-style: normal;
-
- }
+#navbar img{
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 100px;
+    top: 73px;
+    width: 65px;
+    height: 65px;
+    z-index: 1;
+}    
+#navbar p{
+    font-family:"Just Another Hand", cursive;
+    color:#000; 
+    position: absolute;
+    width: 102px;
+    height: 64px;
+    top: 73px;
+    left: 170px;
+    right: 1359px;
+    gap: 0px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 64.36px;
+    text-align: left;
+    font-style: normal;
+            }
+    
  #navbar p span{
-  color: #FF014C ;
- }
-
- .navbar ul{
+    color: #FF014C ;
+   }
+  
+.navbar ul{
+ 
     white-space: nowrap;
     max-width: 1200px;
     margin: 0 auto;
-    display: flex;
-    gap: 3rem;
-    left: 790px;
-    top: 94px;
+    text-align: right;
 }
 .navbar ul li{
     list-style: none;
     white-space:nowrap;
-    width: 20%;
-    display: flex;
+    width: 25%;
+    height: 20;
+    display: inline-block;
+    font-size : 23px;
 }
 .navbar ul li a{
     text-decoration: none;
-    color:  #444444;
+    color: #444444;
     text-transform: uppercase;
+    font-weight: 700;
+    font-size: 23px;  
 }
 .navbar ul li span{
-  font-family: Inter, sans-serif ;
-  font-style: normal;
-  text-decoration: none;
-  color:  #444444;
-  text-transform: uppercase;
-  font-size: 23px;
-  font-weight: 400;
-  text-align: right;
-  left: 792px;
-  left: 790px;
-  top: 60px;
-
-}
-
-#home span {
-left: 45.83%;
-right: 50.29%;
-top: 2.6%;
-bottom: 96.74%;
-font-weight: 600;
-}        
-
+    font-family: "Inter", sans-serif ;
+    font-style: normal;
+    color:  #444444;
+    font-size: 23px;
+    font-weight: 400;
+    align-items: end;
+     width: 600px;
+     height: 24;
+      gap: 5px; }  
+#home span li ul {
+    left: 50px;
+} 
 .navbar ul li a span:hover{
     color:#C40E61;
 }
-/*.navbar ul .btn{
-    border: 2px solid #e2d703;
-    color: #e2d703;
-    padding: 10px 30px;
-    border-radius: 30px;
-    font-size: 14px;
-    font-weight: 700;
-    background-color: #1d1a28;
-    transition: 0.3s ease-in-out;
-    cursor: pointer;
-}*/
+*/
 
-.navbar .title h1{
-
-    text-align: left;
-    padding: 6px 12px;
-    color:#FFFFFF;
-    font-size: larger;
-    text-decoration: none;
-    inline-size: 1;
+.top-movie{
+    padding: 100px 30px;
+}
+.top-movie .header,.tv-series .header{
+    text-align: center;}
+.top-movie .header h4,.tv-series .header h4{
+    color: #030303;
+    font-size: 37px;
+   font-family: Inter, sans-serif ;
+   line-height: 45.31px;
+   position: absolute;
+   display: flex;
 }
 
+.top-movie .header a{
+    text-decoration: none;
+    width: 105px;
+    height: 24px;
+    font-size: 23.26px;
+    font-family:"Inter", sans-serif ;
+    color: #030303;
+}
+.top-movie .header hr{
+    width: 1000px;
+}
+.same .wrapper{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 100%;
+    justify-content: center;
+    row-gap: 50px;
+    column-gap: 30px;
+    margin-top: 3rem;
+}
+.same .wrapper .card{
+    width: 100%;
+    list-style: none;
+    
+}
+.movie-card .card .img img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.movie-card .card .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    margin-top: 0.5rem;
+    width: 100%;
+    font-family:"Inter", sans-serif ;
+    font-size: 24px;
+}
+.movie-card .card .title a{
+    color: #030303;
+    text-decoration: none;
+}
 
+.movie-card .card .footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+.movie-card .card .footer span{
+    color: #3B3B3B;
+    padding: 3px 10px;
+    font-size: 21.19px;;
+    font-weight: 600;
 
-/* Home
-
-position: absolute;
-left: 45.83%;
-right: 50.29%;
-top: 2.6%;
-bottom: 96.74%;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 23.2601px;
-line-height: 23px;
- */
-/* News */
-
+}
+.movie-card .card .footer .time-rating span{
+    color:#FF014C;
+    width: 5.3px;
+    height: 5.3px;
+    padding: 0px;
+    border: none;
+}
+.movie-card .card .footer .time-rating {
+    color: #3B3B3B;
+    font-size: 21.19px;
+    margin-right: 0.3rem;}
+    
+    .tv-series{
+        padding: 100px 30px;
+    }
+    .tv-series .header a{
+        text-decoration: none;
+        width: 105px;
+        height: 24px;
+        font-size: 23.26px;
+        font-family:"Inter", sans-serif ;
+        color: #030303;
+    }
+    .tv-series .header hr{
+        width: 1000px;
+    }
