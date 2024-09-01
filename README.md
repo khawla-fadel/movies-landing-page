@@ -1,2 +1,3 @@
 # movies-landing-page
-Movie landing page 
+
+Simple landing page design for movie
