@@ -14,10 +14,12 @@ This reopsitory is a simple movie landing page design using HTML and CSS, and it
 
 ## :camera: Preview
 
-![screencapture](https://github.com/user-attachments/assets/bf4002d7-9fea-4b90-9450-3c2a1d108d3a)
+https://khawla-fadel.github.io/movies-landing-page/
 
 ## :link: Resource
 
 https://www.figma.com/design/fxEphwDmfR6WMKwhwFMsbM/Movies-Watching-%26-Downloading-Website-Landing-Page-(Community)?node-id=0-1&node-type=CANVAS&t=cc24HKyjZUVBAeNG-0
+
 https://boxicons.com/
+
 https://fonts.google.com/
